@@ -11,3 +11,6 @@ env:
   global:
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 script: rake test:unit
+
+notifications:
+  slack: dreamstatedesign:xssjiVen1x56wwNxYMsTaM2d
